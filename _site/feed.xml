@@ -5,9 +5,35 @@
     <description>INN's encyclodpedia.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Apr 2018 10:12:07 +0900</pubDate>
-    <lastBuildDate>Tue, 24 Apr 2018 10:12:07 +0900</lastBuildDate>
+    <pubDate>Tue, 24 Apr 2018 11:32:21 +0900</pubDate>
+    <lastBuildDate>Tue, 24 Apr 2018 11:32:21 +0900</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>variety-of-beer</title>
+        <description>
+</description>
+        <pubDate>Tue, 24 Apr 2018 11:27:12 +0900</pubDate>
+        <link>http://localhost:4000/variety-of-beer/</link>
+        <guid isPermaLink="true">http://localhost:4000/variety-of-beer/</guid>
+        
+        
+        <category></category>
+        
+      </item>
+    
+      <item>
+        <title>display</title>
+        <description>
+</description>
+        <pubDate>Tue, 24 Apr 2018 11:13:06 +0900</pubDate>
+        <link>http://localhost:4000/display/</link>
+        <guid isPermaLink="true">http://localhost:4000/display/</guid>
+        
+        
+        <category></category>
+        
+      </item>
     
   </channel>
 </rss>

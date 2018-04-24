@@ -38,4 +38,12 @@
         </url>
     
     
+        <url>
+            <loc>http://localhost:4000/variety-of-beer/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/display/</loc>
+        </url>
+  
 </urlset>
