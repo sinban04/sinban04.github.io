@@ -3,7 +3,7 @@ title: INNcyclopedia
 email: sinban04@gmail.com
 description: INN's encyclodpedia. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "sinban04.github.io" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
