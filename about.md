@@ -5,8 +5,10 @@ description: Some description.
 permalink: /about/
 ---
 
-<img itemprop="image" class="img-rounded" src="../assets/img/IMG_7491.JPG" alt="Your Name">
+<img itemprop="image" class="img-rounded" src="../assets/img/profile-small.JPG" alt="Your Name">
 
 ## About
 
-I'm Injung Hwang, and
+Software Engineer, who has interest in everything. <br>
+Love to learn, study, and share. <br>
+
