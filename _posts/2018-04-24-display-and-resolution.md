@@ -2,12 +2,9 @@
 layout: post
 title: "Display & Resolution"
 date: 2018-04-24 02:13:06
-image: '/assets/img/for-post/imac-small.png'
-description: 
-category: 'technology'
-tags: technology science display 
-twitter_text:
-introduction:
+feature-img: "assets/img/for-post/imac.png"
+thumbnail: "assets/img/thumbnails/imac-small.png"
+tags: [technology, science, display]
 ---
 
 디스플레이에 대해서 글을 쓰게 된 것은, 제가 점점 컴퓨터를 할 때, 디스플레이의 참된 중요성을 깨달았기 때문입니다. <br>

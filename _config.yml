@@ -1,42 +1,117 @@
-# Site Settings
-title: INNcyclopedia
-email: sinban04@gmail.com
-description: INN's encyclodpedia. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://sinban04.github.io"
+title: INNcyclopedia # site's title
+description: "A website with blog posts and pages" # used by search engines
 
-# User Settings
-username: sinban
-user_description: Software Engineer. 
-disqus_username: sinban04
 
-# Social Media
-# Remove the item if you don't need it
-github_username: sinban04
-#twitter_username: twitter_username
-instagram_username: sinban04
-linkedin_username: sinban04
-#medium_username: medium_username
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: INNcyclopedia # blog's title
+  avatar: assets/img/profile.JPG
+  favicon: assets/favicon.ico
+  gravatar: # Email MD5 hash
 
-# Build settings
+  # Header and footer text
+  header_text: > #two or three lines to describe your site
+     <p> Welcome to INNcyclopedia. </p>
+  header_text_feature_image: assets/img/pexels/triangular.jpeg
+  footer_text: >
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+
+  # Icons
+  rss: true  # Make sure you created a feed.xml with feed.xml layout
+  email_address: sinban04@gmail.com # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook: facebook.com/sinban
+  flickr:
+  gitlab:
+  github: "sinban04"
+  google_plus:
+  instagram: sinban04
+  keybase:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: # "twitter username"
+  vimeo:
+  wordpress:
+  youtube:
+  
+  # Sharing options
+  share_buttons:
+    facebook: true
+    twitter: true
+    google_plus: true
+    tumblr:
+    pinterest:
+    pocket:
+    reddit: true
+    linkedin:
+    wordpress: true
+    email: true
+
+  # Scripts / Features 
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+  
+  special_page:
+    search: 
+      icon: "search" # Assuming page link and icon are the same
+      enabled: true
+    tags:
+      icon: "tags"
+      enabled: true
+  
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_share_on: "Share on"
+  str_add_to: "Add to"
+  str_email: "Email"
+  str_tweet: "Tweet"
+  str_pin_it: "Pin it"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: true
+  
+  
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+
+
+# BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
-
-# Plugins
-plugins:
-  - jemoji
-
-# Links to include in menu navigation
-# For external links add external: true
-links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
-  - title: Contact
-    url: /contact/
-
-# Exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate, jekyll-seo-tag]
+#theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules", "gulpfile.js", ".idea/*"]
