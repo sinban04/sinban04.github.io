@@ -5,8 +5,8 @@
     <description>INN's encyclodpedia.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Jun 2018 20:18:09 +0900</pubDate>
-    <lastBuildDate>Mon, 04 Jun 2018 20:18:09 +0900</lastBuildDate>
+    <pubDate>Mon, 04 Jun 2018 20:34:34 +0900</pubDate>
+    <lastBuildDate>Mon, 04 Jun 2018 20:34:34 +0900</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -23,24 +23,11 @@
       </item>
     
       <item>
-        <title>디스플레이와 화질</title>
-        <description>&lt;h2 id=&quot;디스플레이와-화질&quot;&gt;디스플레이와 화질&lt;/h2&gt;
-
-&lt;p&gt;디스플레이는 문자 그대로 무엇인가에 대한 내용을 출력하는 것을 뜻하기도 하고, &lt;br /&gt; 
-또한 그 출력하는 물리적인 것도 뜻합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hello Everyone.
-아아아
-&lt;br /&gt;
-지금은 잘 나오는지 확인 중입니다.
-글씨체 괜찮나요?&lt;/p&gt;
-</description>
+        <title>Display &amp; Resolution</title>
+        <description>&lt;p&gt;디스플레이에 대해서 글을 쓰게 된 것은, 제가 점점 컴퓨터를 할 때, 디스플레이의 참된 중요성을 깨달았기 때문입니다. &lt;br /&gt; 저도 예전에는 디스플레이가 뭐 중요하냐, 대충 화면만 보이고, 내용을 볼 수만 있으면 됐지, 라고 생각했습니다. &lt;br /&gt; 하지만, 위의 아이맥 그림처럼, 정말 좋은 디스플레이를 보고난 뒤, 계몽(?)이 되면서, 점점 더 디스플레이의 중요성이 보이더군요. &lt;br /&gt; &lt;br /&gt; &lt;br /&gt; 오랜시간 컴퓨터 작업을 하는 사람이라면, 컴퓨터의 내용을 보는 것이, 마치 안경과 같은 역할을 하는 것이죠. &lt;br /&gt; 그래서 오늘은 디스플레이에 대한 이야기와 그 해상도, 화질 (픽셀 개수) 등에 대한 이야기를 하고자 합니다. &lt;br /&gt; &lt;br /&gt; 디스플레이는 문자 그대로 무엇인가에 대한 내용을 출력하는...</description>
         <pubDate>Tue, 24 Apr 2018 11:13:06 +0900</pubDate>
-        <link>http://localhost:4000/display/</link>
-        <guid isPermaLink="true">http://localhost:4000/display/</guid>
+        <link>http://localhost:4000/display-and-resolution/</link>
+        <guid isPermaLink="true">http://localhost:4000/display-and-resolution/</guid>
         
         <category>technology</category>
         
