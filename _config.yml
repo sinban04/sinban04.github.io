@@ -2,7 +2,7 @@
 baseurl: ""
 url: "https://sinban04.github.io"
 title: INNcyclopedia # site's title
-description: "A website with blog posts and pages" # used by search engines
+description: "INNcyclopedia of sinban" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
@@ -43,7 +43,7 @@ theme_settings:
   twitter: # "twitter username"
   vimeo:
   wordpress:
-  youtube:
+  youtube: sinban04
   
   # Sharing options
   share_buttons:
@@ -60,7 +60,7 @@ theme_settings:
 
   # Scripts / Features 
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  disqus_shortname: inncyclopedia
   katex: true # Enable if using math markup
   
   special_page:
