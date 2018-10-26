@@ -15,7 +15,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <h2> Welcome to INNcyclopedia. </h2>
+     <h2> Make Love, As if you have never been hurt </h2>
   header_text_feature_image: assets/img/main.jpg
   footer_text: >
    Copyright 2018 @ <b>Injung Hwang</b> All Rights Reserved. <br> 
@@ -27,11 +27,11 @@ theme_settings:
   behance:
   bitbucket:
   dribbble:
-  facebook: facebook.com/sinban
+  facebook: sinban
   flickr:
   gitlab:
   github: "sinban04"
-  google_plus:
+  google_plus: sinban04
   instagram: sinban04
   keybase:
   linkedin:  # Full URL
