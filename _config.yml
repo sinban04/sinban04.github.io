@@ -2,7 +2,7 @@
 baseurl: ""
 url: "https://sinban04.github.io"
 title: INNcyclopedia # site's title
-description: "INNcyclopedia of sinban" # used by search engines
+description: "INNcyclopedia" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
@@ -15,9 +15,10 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p> Welcome to INNcyclopedia. </p>
+     <h2> Welcome to INNcyclopedia. </h2>
   header_text_feature_image: assets/img/main.jpg
   footer_text: >
+   Copyright 2018 @ <b>Injung Hwang</b> All Rights Reserved. <br> 
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
