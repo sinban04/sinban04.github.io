@@ -2,13 +2,13 @@
   
    
       {
-        "title"    : "First post",
+        "title"    : "Static vs. Extern keyword",
         "category" : "",
-        "tags"     : " ",
-        "url"      : "/2018/10/26/First-Post.html",
-        "date"     : "October 26, 2018",
-        "excerpt"  : "<p>This is my first post, and i’m not sure what i should write down.</p>\n\n<p><img src=\"/assets/img/pexels/desk-messy.jpeg\" style=\"max-width: 100%; height:auto;\" /></p>\n",
-        "content"  : "<p>This is my first post, and i’m not sure what i should write down.</p>\n\n<p><img src=\"/assets/img/pexels/desk-messy.jpeg\" style=\"max-width: 100%; height:auto;\" /></p>\n"
+        "tags"     : " extern, static, c, c++",
+        "url"      : "/2018/11/22/static-and-extern.html",
+        "date"     : "November 22, 2018",
+        "excerpt"  : "<h2 id=\"intro\">Intro</h2>\n\n<p>One of the most confusing and forgettable concepts is the concept of <strong>“extern”</strong> and <strong>“static”</strong> keyword.</p>\n\n<p>It could be applied only to me, but I’m just leaving some notes for the oth...",
+        "content"  : "<h2 id=\"intro\">Intro</h2>\n\n<p>One of the most confusing and forgettable concepts is the concept of <strong>“extern”</strong> and <strong>“static”</strong> keyword.</p>\n\n<p>It could be applied only to me, but I’m just leaving some notes for the others who would get confused like me.\nThere are many long, wordy explanation and description about this, but i couldn’t know them in my bones.</p>\n\n<h2 id=\"extern-vs-static\">Extern vs. Static</h2>\n\n<p>The core concept of extern and static is <strong>“do you wanna export the target?”</strong>.</p>\n\n<p>The main difference between export and static is the <em>visibility</em>.\nIn a nut shell, if you wanna make the target <strong>visible</strong>, the right option is “extern”.\nOn the other hand, if you wanna make <strong>invisible</strong>, it’s “static”.</p>\n\n<p>Why i call ‘target’, not ‘variable’ is that the concept could be applied not only to the variables,\nbut also functions.</p>\n\n<h3 id=\"static-keyword\">Static keyword</h3>\n\n<p>Let me give you explanation of static keyword first.\nIt would be easier to understand the concepts &amp; difference of static and extern keyword.</p>\n\n<p>When we see the word ‘static’, we expect the antonym would be ‘dynamic’.\nHowever, it’s not. It’s extern.\nWith the opposite meaning of static, we can get the right understanding.</p>\n\n<p>Here, it means ‘fixed’, or ‘local’. The target with static keyword has the local feature.\nThe</p>\n\n<h3 id=\"extern-keyword\">Extern keyword</h3>\n\n<p>Extern keyword makes the target global.\nAs the word means literally, the target with ‘extern’ keyword become global and visible to other files.</p>\n\n<p>[]:http://www.answers.com/Q/What_is_the_difference_between_static_and_local_declaration\n[]:\n[]:</p>\n"
       } 
    ,
    
