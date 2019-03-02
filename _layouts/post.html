@@ -1,33 +1,49 @@
 ---
-layout: default
+layout: page
 ---
-<article {% if page.feature-img %}class="feature-image"{% endif %}>
-  <header id="main" style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
-    <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
-    <p class="meta">
-    {{ page.date | date: "%B %-d, %Y" }}
-    {% if page.author %} - {{ page.author }}{% endif %}
-    </p>
-  </header>
-  <section class="post-content">{{ content }}</section>
-  
-  <!-- Social media shares -->
-  {% include share_buttons.html %}
-   
-   <!-- Tag list -->
-  {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
-  {% include tags_list.html tags=tag_list %}
-    
-</article>
 
-<!-- Disqus -->
-{% if site.theme_settings.disqus_shortname %}
-<div class="comments">
-  {% include disqus.html %}
-</div>
+{% if page.image and page.headerImage %}
+    <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
 {% endif %}
 
-<!-- Post navigation -->
-{% if site.theme_settings.post_navigation %}
-  {% include post_nav.html %}
+<h1 class="title">{{ page.title }}</h1>
+
+<span class="date">
+    <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time>
+    {% if site.read-time %} - {% include read-time.html %}{% endif %}
+</span>
+
+{% if site.show-tags %}
+    <div class="post-tags">
+        {% for tag in page.tags %}
+            <a class="item" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+        {% endfor %}
+    </div>
+{% endif %}
+
+{{content}}
+
+{% if site.post-advance-links contains page.category %}
+    <div class="blog-navigation">
+        {% if page.previous.hidden == false and page.previous.url %}
+            <a class="prev" href="{{ site.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+        {% else %}
+            <a class="prev"></a>
+        {% endif %}
+        {% if page.next.hidden == false and page.next.url %}
+            <a class="next" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+        {% endif %}
+    </div>
+{% endif %}
+
+{% if site.related %}
+    {% include related.html %}
+{% endif %}
+
+{% if site.show-author %}
+    {% include author.html %}
+{% endif %}
+
+{% if site.disqus.categories contains page.category %}
+    {% include disqus.html %}
 {% endif %}
