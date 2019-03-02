@@ -8,7 +8,7 @@ bio: System Software Developer <br> who loves to learn from everything.
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.JPG
+picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -39,10 +39,10 @@ facebook: sinban
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+# linkedin: sinban04 
 # youtube: myyoutube
 # spotify: myspotify
-github: sinban04 
+github: sinban 
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
@@ -54,11 +54,12 @@ github: sinban04
 email: sinban04@gmail.com
 
 authors:
-    johndoe:
+    injunghwang:
         name: Injung Hwang 
         bio: System Software Developer <br> who loves to learn from everything.
-        external-image: false
-        picture: assets/images/profile.JPG
+        external-image: false 
+        picture: assets/images/profile.jpg
+
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
