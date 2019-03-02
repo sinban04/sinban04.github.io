@@ -10,7 +10,7 @@ hidden: true # don't count this post in blog pagination
 description: "AI-based Networked Things Framework"
 category: project
 author: injunghwang 
-externalLink: false
+externalLink: false 
 ---
 
 
